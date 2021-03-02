@@ -1,0 +1,12 @@
+.colorize {
+  fill: transparent;
+}
+
+#shadow_Image {
+  pointer-events: none;
+  opacity: 50%;
+}
+
+path {
+  stroke-width: 2;
+}
