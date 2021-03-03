@@ -10,3 +10,11 @@
 path {
   stroke-width: 2;
 }
+
+#shoebox {
+  width: 60%;
+}
+
+body {
+  width: 100vw;
+}

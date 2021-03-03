@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", start);
 let elementToPaint;
 
 async function start() {
-  let response = await fetch("shoe.svg");
+  let response = await fetch("sneaker-01.svg");
   let mySvgData = await response.text();
   document.querySelector("#shoebox").innerHTML = mySvgData;
   startManipulatingTheSvg();
